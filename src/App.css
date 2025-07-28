@@ -1,0 +1,25 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root{
+  width: 100%;
+  flex: 1;
+}
+
+
+@keyframes animation-translate-y-100-0 {
+  0%{transform: translateY(100%);}
+  100%{transform: translateY(0%);}
+}
+
+@keyframes animation-opacity-0-1 {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
